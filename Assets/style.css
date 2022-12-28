@@ -9,3 +9,7 @@ html, body {
 #yaynay {
     display: none;  
   } 
+
+  ul.nobullets {
+    list-style-type: none;
+    }
