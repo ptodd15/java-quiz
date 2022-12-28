@@ -2,7 +2,22 @@ html, body {
     height: 100%;
 }
 
-/* hide sections until they are shown via the click events */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content */
+main {
+    flex: 1 0 auto;
+}
+
+/* Footer */
+footer {
+    flex-shrink: 0;
+    font-size: .5rem;
+}
+
 #questions,
 #final,
 #highscores,
@@ -10,6 +25,7 @@ html, body {
     display: none;  
   } 
 
-  ul.nobullets {
-    list-style-type: none;
-    }
+ul.nobullets {
+list-style-type: none;
+}
+
