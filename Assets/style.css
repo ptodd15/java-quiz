@@ -1,0 +1,11 @@
+html, body {
+    height: 100%;
+}
+
+/* hide sections until they are shown via the click events */
+#questions,
+#final,
+#highscores,
+#yaynay {
+    display: none;  
+  } 
